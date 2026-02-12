@@ -10,7 +10,7 @@ test.describe('Product Tests', () => {
   test.beforeEach(async ({ page }) => {
     loginPage = new LoginPage(page);
     inventoryPage = new InventoryPage(page);
-    
+    //userr will be changed to test prod images
     await loginPage.navigate();
     await loginPage.login(
       
