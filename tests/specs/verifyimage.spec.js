@@ -13,7 +13,7 @@ test.describe('Product Tests', () => {
     
     await loginPage.navigate();
     await loginPage.login(
-      //userr will be changed to test prod images
+      
       testData.users.standard.username,
       testData.users.standard.password
     );
